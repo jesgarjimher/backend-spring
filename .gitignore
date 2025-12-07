@@ -1,0 +1,15 @@
+# 1. Ignorar dependencias de Java (Maven/Gradle)
+/back-end/target/
+/back-end/pom.xml.tag
+/back-end/pom.xml.versionsBackup
+/back-end/*.log
+
+# 2. Ignorar dependencias de Node (NPM)
+/front-end/node_modules
+/front-end/build
+/front-end/.env.local
+/front-end/npm-debug.log*
+
+# Ignorar archivos del IDE (IntelliJ/VS Code)
+.idea/
+*.iml
