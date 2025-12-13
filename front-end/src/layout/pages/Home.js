@@ -44,7 +44,7 @@ export default function Home() {
             <td>{user.name}</td>
             <td>{user.username}</td>
             <td>{user.email}</td>
-            <td><button className="btn btn-primary mx-2">View</button></td>
+            <td><Link className="btn btn-primary mx-2" to={`/viewuser/${user.id}`}>View</Link></td>
             <td><Link className="btn btn-outline-primary mx-2"
             to={`/edituser/${user.id}`}
             >Edit</Link></td>
